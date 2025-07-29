@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "docker"
+    directory: "/" # Cambia si tu Dockerfile está en otro directorio
+    schedule:
+      interval: "daily"
