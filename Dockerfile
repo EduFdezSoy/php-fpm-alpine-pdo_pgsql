@@ -1,3 +1,3 @@
 FROM php:fpm-alpine
 
-RUN /bin/sh -c docker-php-ext-install pgsql pdo pdo_pgsql
+RUN docker-php-ext-install pdo pdo_pgsql
